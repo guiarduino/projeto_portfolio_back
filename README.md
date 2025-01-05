@@ -6,8 +6,8 @@ Esta é a parte back-end do projeto, a parte front-end esta no repositorio: http
 
 ## Tecnologias Utilizadas
 
-- **PHP**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Laravel**: Framework CSS para estilização e design responsivo.
+- **PHP**: Linguagem de programação usada para o desenvolvimento da lógica de back-end.
+- **Laravel**: Framework PHP para desenvolvimento de aplicações web robustas e seguras.
 
 ## Funcionalidades
 
@@ -21,7 +21,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/guiarduino/projeto_portfolio_front
+    git clone https://github.com/guiarduino/projeto_portfolio_back
 
 2. Navegue até o diretório do projeto:
     ```bash
@@ -40,7 +40,11 @@ Siga os passos abaixo para rodar o projeto localmente:
         - DB_USERNAME={nome_do_usuario_do_banco_de_dados}
         - DB_PASSWORD={senha_do_usuario}
 
-5. Inicie o servidor de desenvolvimento:
+5. Realize a migração do banco de dados:
+    ```bash
+    php artisan migrate
+
+6. Inicie o servidor de desenvolvimento:
     ```bash
     php -S localhost:8000
 
