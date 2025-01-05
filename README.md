@@ -11,9 +11,9 @@ Esta é a parte back-end do projeto, a parte front-end esta no repositorio: http
 
 ## Funcionalidades
 
-- Exibição de projetos com detalhes e links.
-- Curriculum Vitae.
-- Minhas redes sociais.
+Este projeto é uma aplicação de Back-End desenvolvida para fornecer a lógica e os serviços necessários para suportar a interação com o front-end de uma aplicação.<br>
+Ele é responsável pelo gerenciamento de dados, autenticação de usuários, execução de processos em segundo plano e muito mais.<br>
+A comunicação entre o front-end e o back-end é realizada por meio de uma API RESTful, garantindo uma estrutura eficiente e escalável para a troca de dados.
 
 ## Instalação
 
